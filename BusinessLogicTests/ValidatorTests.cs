@@ -1,10 +1,11 @@
 using BusinessLogic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Data;
 
 namespace BusinessLogicTests
 {
     [TestClass]
-    public class ValidatorTest
+    public class ValidatorTests
     {
         [TestMethod]
         [DataRow("555-55-5555")]
